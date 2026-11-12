@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="./spec/dvla/wishy/washy/windows/booking_spec.rb">
+    <testCase name="creates a booking from a date string" duration="5" />
+    <testCase name="creates a booking from a Date" duration="0" />
+    <testCase name="rejects a booking number of zero" duration="5" />
+    <testCase name="rejects a customer number of zero" duration="0" />
+    <testCase name="rejects a date in the wrong format" duration="0" />
+    <testCase name="rejects a missing date" duration="0" />
+  </file>
+  <file path="./spec/dvla/wishy/washy/windows/cost_calculator_spec.rb">
+    <testCase name="charges £5 for the property plus £1 per window" duration="0" />
+    <testCase name="charges only £5 when there are no windows" duration="0" />
+  </file>
+  <file path="./spec/dvla/wishy/washy/windows/customer_bookings_spec.rb">
+    <testCase name="finds the bookings on a date" duration="7" />
+    <testCase name="finds no bookings on a date without any" duration="8" />
+    <testCase name="finds the customer for a booking" duration="0" />
+    <testCase name="raises when the booking does not exist" duration="0" />
+    <testCase name="raises when the customer does not exist" duration="0" />
+  </file>
+  <file path="./spec/dvla/wishy/washy/windows/customer_spec.rb">
+    <testCase name="creates a customer with valid details" duration="0" />
+    <testCase name="allows a customer with zero windows" duration="0" />
+    <testCase name="rejects a customer number of zero" duration="0" />
+    <testCase name="rejects a blank name" duration="0" />
+    <testCase name="rejects a negative number of windows" duration="0" />
+  </file>
+  <file path="./spec/dvla/wishy/washy/windows/window_cleaning_service_spec.rb">
+    <testCase name="adds up the windows for every booking on the date" duration="0" />
+    <testCase name="returns 0 when nothing is booked on the date" duration="0" />
+    <testCase name="rejects an invalid date" duration="0" />
+    <testCase name="charges £5 plus £1 per window for booking 1" duration="0" />
+    <testCase name="charges £5 plus £1 per window for booking 3" duration="0" />
+    <testCase name="raises when the booking does not exist" duration="4" />
+  </file>
+</testExecutions>
